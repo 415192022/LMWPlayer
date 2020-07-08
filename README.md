@@ -14,7 +14,7 @@
 	
 	//项目build.gradle
 	dependencies {
-	        implementation 'com.github.415192022:LMWPlayer:latest.release'
+	        implementation 'com.github.415192022:LMWPlayer:0.0.1'
 	}
 ```
 
