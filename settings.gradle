@@ -1,0 +1,2 @@
+rootProject.name = 'lmwplayer'
+include ':app', ':ijkplayer','audiodemo','videodemo'

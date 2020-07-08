@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context="com.lmw.audiodemo.WorksActivity">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnInitData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置数据" />
+
+    <Button
+        android:id="@+id/btnPlayOrPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一首" />
+
+    <Button
+        android:id="@+id/btnPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="上一首" />
+
+    <Button
+        android:id="@+id/btnLoop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置单曲循环"/>
+    <Button
+        android:id="@+id/btnFloat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示浮标"/>
+
+    <TextView
+        android:id="@+id/tvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+</LinearLayout>
